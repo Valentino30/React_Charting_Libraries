@@ -1,9 +1,11 @@
+import { apexLineChartData } from "./data/apex";
 import { nivoLineChartData } from "./data/nivo";
 import { victoryLineChartData } from "./data/victory";
 import { rechartsLineChartData } from "./data/recharts";
 import { reactVisLineChartData } from "./data/reactVis";
 import { reactChartsLineChartData } from "./data/reactCharts";
 
+import { ApexLineChart } from "./components/Apex/LineChart";
 import { NivoLineChart } from "./components/Nivo/LineChart";
 import { VictoryLineChart } from "./components/Victory/LineChart";
 import { RechartsLineChart } from "./components/Recharts/LineChart";
@@ -23,6 +25,8 @@ function App() {
       <ReactVisLineChart data={reactVisLineChartData} />
       <h1>Nivo</h1>
       <NivoLineChart data={nivoLineChartData} />
+      <h1>Apex</h1>
+      <ApexLineChart data={apexLineChartData} />
     </div>
   );
 }
