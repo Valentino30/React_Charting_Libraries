@@ -1,4 +1,11 @@
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
+import {
+  Line,
+  XAxis,
+  YAxis,
+  Tooltip,
+  LineChart,
+  CartesianGrid,
+} from "recharts";
 
 type RechartsLineChartProps = {
   data: {

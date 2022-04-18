@@ -1,12 +1,12 @@
 import {
-  Chart as ChartJS,
-  CategoryScale,
+  Title,
+  Legend,
+  Tooltip,
+  LineElement,
   LinearScale,
   PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
+  CategoryScale,
+  Chart as ChartJS,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 
@@ -15,9 +15,9 @@ ChartJS.register(
   LinearScale,
   PointElement,
   LineElement,
-  Title,
   Tooltip,
-  Legend
+  Legend,
+  Title
 );
 
 export const options = {
@@ -37,8 +37,8 @@ type ReactChartsLineChartProps = {
   data: {
     labels: string[];
     datasets: {
-      label: string;
       data: any[];
+      label: string;
       borderColor: string;
       backgroundColor: string;
     }[];

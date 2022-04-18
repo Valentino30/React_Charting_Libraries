@@ -1,8 +1,8 @@
 import { rechartsLineChartData } from "./data/recharts";
 import { reactChartsLineChartData } from "./data/reactCharts";
 
-import { RechartsLineChart } from "./components/RechartsLineChart";
-import { ReactChartsLineChart } from "./components/ReactChartsLineChart";
+import { RechartsLineChart } from "./components/Recharts/LineChart";
+import { ReactChartsLineChart } from "./components/ReactCharts/LineChart";
 
 function App() {
   return (
