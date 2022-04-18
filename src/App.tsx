@@ -5,6 +5,8 @@ import { reactChartsLineChartData } from "./data/reactCharts";
 import { VictoryLineChart } from "./components/Victory/LineChart";
 import { RechartsLineChart } from "./components/Recharts/LineChart";
 import { ReactChartsLineChart } from "./components/ReactCharts/LineChart";
+import { reactVisLineChartData } from "./data/reactVis";
+import { ReactVisLineChart } from "./components/ReactVis/LineChart";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <RechartsLineChart data={rechartsLineChartData} />
       <h1>Victory</h1>
       <VictoryLineChart data={victoryLineChartData} />
+      <h1>React Vis</h1>
+      <ReactVisLineChart data={reactVisLineChartData} />
     </div>
   );
 }
